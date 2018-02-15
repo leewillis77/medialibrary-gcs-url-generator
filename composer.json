@@ -1,0 +1,35 @@
+{
+    "name": "leewillis77/medialibrary-gcs-url-generator",
+    "description": "Custom URL generator for spatei/medialibrary that generators URLs for files stored on Google Cloud Storage using Superbalist/laravel-google-cloud-storage",
+    "keywords": [
+        "Laravel",
+	    "Google Cloud Storage",
+        "media library",
+        "gcs"
+    ],
+    "homepage": "https://github.com/leewillis77/medialibrary-gcs-url-generator",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Lee Willis",
+            "homepage": "https://www.leewillis.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "Superbalist/laravel-google-cloud-storage": "~2.0.0",
+        "spatie/laravel-medialibrary": "~6.6.0",
+        "laravel/framework": "~5.5.0|~5.6.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Leewillis77\\MedialibraryGcsUrlGenerator\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.2"
+    }
+}
