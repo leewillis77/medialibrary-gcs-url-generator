@@ -1,3 +1,6 @@
+# This package is abandoned and no longer maintained. 
+
+---
 # Media Library GCS URL Generator
 A Laravel package to allow you to generate URLs for media managed by [spatie/laravel-medialibrary](https://github.com/spatie/laravel-medialibrary) when it is stored on a Google Cloud Storage filesystem (using [Superbalist/laravel-google-cloud-storage](https://github.com/Superbalist/laravel-google-cloud-storage)).
 
